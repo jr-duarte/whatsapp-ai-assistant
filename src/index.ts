@@ -16,10 +16,7 @@ const openai = new OpenAI({
 
 async function start(client: Whatsapp) {
   client.onAnyMessage(async (message) => {
-    console.log(message)
     if (message?.from === `${process.env.MY_PHONE}@c.us` && message?.body?.includes(String(process.env.TRIGGER_COMMAND))) {
-      console.log("entrou aqui")
-
       const content = `   
          ${String(process.env.TEMPLATE_COMMAND)} ${message.body}?"
       `.trim();
