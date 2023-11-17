@@ -34,3 +34,9 @@ MY_PHONE="55119XXX"
 TEMPLATE_COMMAND="Responda em no máximo dois parágrafos a seguinte pergunta:"
 TRIGGER_COMMAND="IA pergunta:"
 ```
+
+## Example
+![WhatsApp Image 2023-11-17 at 13 55 57](https://github.com/jr-duarte/whatsapp-ai-assistant/assets/32375670/ea74d38c-ad92-4e93-a96b-89c183bedbc0)
+
+
+
